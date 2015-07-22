@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:14.04
 MAINTAINER ep@geneegroup.com
 
 RUN apt-get update  \
