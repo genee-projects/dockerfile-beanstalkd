@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER ep@geneegroup.com
+FROM debian:8
+MAINTAINER jia.huang@geneegroup.com
 
 RUN apt-get update  \
     && apt-get install -y beanstalkd \
